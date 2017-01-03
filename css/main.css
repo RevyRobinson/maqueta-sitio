@@ -1,4 +1,7 @@
 /*GRAL*/
+body{
+	overflow-x: hidden;
+}
 a {
 	text-decoration: none;
 	color:black;
@@ -9,6 +12,13 @@ a:hover {
 }
 .head-section {
 	width:100%;
+}
+.title_sitio {
+	text-align: center;
+	background-color: #C12D33;
+	padding-top: 1%;
+	padding-bottom: 1%;
+	color: white;
 }
 /*HEADER*/
 header {
@@ -63,5 +73,44 @@ header ul li {
 
 /*BLOG*/
 #blog {
-
+ background-color: #FFF;
 }
+.articulo h2{
+	background-color: #C12D33;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	color: #FFF;
+	margin-bottom: 0px;
+}
+.articulo div {
+	background-color: #484F57;
+	color: #FFF;
+	margin-bottom: 50px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+.articulo div h3 {
+	margin-top: 0px;
+}
+.articulo div p {
+	padding-left: 3%;
+	padding-right: 3%; 
+	text-align: justify;
+}
+.articulo div hr {
+	width: 60%;
+	margin-top: 0px;
+	margin-left: auto;
+	margin-right: auto;
+	height: 1px;
+	background-color: #FFF;
+}
+.articulo div a {
+	display: inline-block;
+	width: 20%;
+	text-align: center;
+	background-color: #FFF;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
