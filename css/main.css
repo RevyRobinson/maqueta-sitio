@@ -145,3 +145,19 @@ header ul li {
 #tools {
 	background-color: #484F57;
 }
+.tools {
+	margin-bottom: 20px;
+	margin-top: 20px;
+	background-color: white;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	text-align: center;
+}
+.tools p{
+	text-align: justify;
+	border-left: 1px solid #484F57;
+	padding-left: 10px;
+}
+.tools span {
+	font-size: 35px;
+}
