@@ -13,15 +13,12 @@ body {
 nav a {
 	position: relative;
 	display: inline-block;
-	margin: 15px 25px;
 	outline: none;
-	color: #fff;
+	color: #FFF;
 	text-decoration: none;
 	text-transform: uppercase;
 	letter-spacing: 1px;
-	font-weight: 400;
-	text-shadow: 0 0 1px rgba(255,255,255,0.3);
-	font-size: 1.35em;
+	font-size: 15px;
 }
 
 nav a:hover,
@@ -257,9 +254,9 @@ nav a:focus {
 /* Effect 7: second border slides up */
 .cl-effect-7 a {
 	padding: 12px 10px 10px;
-	color: #566473;
+	color: #FFF;
 	text-shadow: none;
-	font-weight: 700;
+	font-weight: bold;
 }
 
 .cl-effect-7 a::before,
@@ -269,7 +266,7 @@ nav a:focus {
 	left: 0;
 	width: 100%;
 	height: 3px;
-	background: #566473;
+	background: #FFF;
 	content: '';
 	-webkit-transition: -webkit-transform 0.3s;
 	-moz-transition: -moz-transform 0.3s;
