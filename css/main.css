@@ -15,7 +15,7 @@ a:hover {
 }
 .title_sitio {
 	text-align: center;
-	background-color: #C12D33;
+	background-color: #E72A31;
 	padding-top: 1%;
 	padding-bottom: 1%;
 	color: white;
@@ -25,8 +25,11 @@ header {
 	position: fixed;
 	z-index: 1;
 	width: 100%;
-	background-color: #ED656C;
+	background-color: #E72A31;
 	height: 80px;
+	-webkit-box-shadow: 10px 10px 5px 0px rgba(17,17,18,0.32);
+	-moz-box-shadow: 10px 10px 5px 0px rgba(17,17,18,0.32);
+	box-shadow: 10px 10px 5px 0px rgba(17,17,18,0.32);
 }
 header span, .logo {
 	display: inline-block;
@@ -53,14 +56,15 @@ header ul li {
 /*BANNER*/
 #banner {
 	padding-top: 80px;
-	background: url(../image/bg.png);
+	background: url(../image/coding.jpg);
 	background-repeat: no-repeat;
-	background-color: #484F57;
+	background-color: #B2B4B6;
 	background-size: 100%;
 	height: 620px;
+
 }
 .descripcion {
-	background-color: #C12D33;
+	background-color: #E72A31;
 	color: #F2F2F4;
 	margin-top: 40px;
 	padding-top: 50px;
@@ -76,14 +80,14 @@ header ul li {
  background-color: #FFF;
 }
 .articulo h2{
-	background-color: #C12D33;
+	background-color: #E72A31;
 	padding-top: 10px;
 	padding-bottom: 10px;
 	color: #FFF;
 	margin-bottom: 0px;
 }
 .articulo div {
-	background-color: #484F57;
+	background-color: #999999;
 	color: #FFF;
 	margin-bottom: 50px;
 	padding-top: 20px;
@@ -115,7 +119,7 @@ header ul li {
 }
 
 .blog-right {
-	background-color: #ED656C;
+	background-color: #999999;
 	margin-right: 2%;
 	padding-left: 2%;
 	padding-right: 2%;
@@ -143,7 +147,7 @@ header ul li {
 
 /*TOOLS*/
 #tools {
-	background-color: #484F57;
+	background-color: #404040;
 }
 .tools {
 	margin-bottom: 20px;
