@@ -14,6 +14,7 @@ a:hover {
 	width:100%;
 }
 .title_sitio {
+  width: 100%;
 	text-align: center;
 	background-color: #E72A31;
 	padding-top: 1%;
@@ -23,6 +24,7 @@ a:hover {
 /*HEADER*/
 header {
 	position: fixed;
+  text-align: center;
 	z-index: 1;
 	width: 100%;
 	background-color: #E72A31;
@@ -30,6 +32,15 @@ header {
 	-webkit-box-shadow: 10px 10px 5px 0px rgba(17,17,18,0.32);
 	-moz-box-shadow: 10px 10px 5px 0px rgba(17,17,18,0.32);
 	box-shadow: 10px 10px 5px 0px rgba(17,17,18,0.32);
+}
+.right {
+  text-align: right;
+}
+.left {
+  text-align: left;
+}
+.navbar {
+  padding-top: 20px;
 }
 header span, .logo {
 	display: inline-block;
@@ -42,10 +53,7 @@ header ul li {
 	padding-left: 10%;
 	padding-top: 10px;
 }
-/*.navbar a {
-	display: inline-block;
-}*/
-.r-h {
+.pdd-tp{
 	padding-top: 20px;
 }
 .drop-menu {
@@ -56,25 +64,33 @@ header ul li {
 /*BANNER*/
 #banner {
 	padding-top: 80px;
-	background: url(../image/coding.jpg);
 	background-repeat: no-repeat;
 	background-color: #B2B4B6;
 	background-size: 100%;
-	height: 620px;
 
 }
 .descripcion {
 	background-color: #E72A31;
 	color: #F2F2F4;
-	margin-top: 40px;
-	padding-top: 50px;
+	padding-top: 20px;
 	padding-left: 10px;
 	padding-right: 10px;
 	font-size: 17px;
-	height:450px;
 	text-align: center
 }
 
+/*OTRAS AREAS*/
+.other-area:nth-child(even){
+  background-color: #FFF;
+}
+.other-area2:nth-child(odd){
+  background-color: #FFF;
+}
+.other-area,.other-area2 {
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
 /*BLOG*/
 #blog {
  background-color: #FFF;
@@ -368,7 +384,7 @@ footer h6 {
   text-decoration: none;
   padding: 7px 14px;
   text-transform: uppercase;
-  margin: 50px 0 0 0;
+  margin: -10px 0 0 0;
   background-color: transparent;
   -webkit-transform: translateY(-200px);
   -ms-transform: translateY(-200px);
