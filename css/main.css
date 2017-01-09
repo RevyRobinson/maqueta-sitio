@@ -14,7 +14,6 @@ a:hover {
 	width:100%;
 }
 .title_sitio {
-  width: 100%;
 	text-align: center;
 	background-color: #E72A31;
 	padding-top: 1%;
@@ -80,16 +79,29 @@ header ul li {
 }
 
 /*OTRAS AREAS*/
-.other-area:nth-child(even){
-  background-color: #FFF;
-}
-.other-area2:nth-child(odd){
+.white-bg{
   background-color: #FFF;
 }
 .other-area,.other-area2 {
+  font-size: 16px;
   text-align: center;
-  padding-top: 20px;
+  padding-top: 25px;
   padding-bottom: 20px;
+  height: 80px;
+  transition: all 0.5s ease;
+}
+.other-area span , .other-area2 span {
+  margin-right: 5%;
+}
+.other-area:hover , .other-area2:hover {
+  font-size: 20px;
+  letter-spacing: 2px;
+  background-color: #000;
+  color: #FFF;
+  transition: all 0.5s ease;
+}
+.other-area p , .other-area2 p {
+  display: inline-block;
 }
 /*BLOG*/
 #blog {
