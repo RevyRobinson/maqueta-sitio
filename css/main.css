@@ -94,15 +94,14 @@ header ul li {
   margin-right: 5%;
 }
 .other-area:hover , .other-area2:hover {
-  font-size: 20px;
+  font-size: 15px;
   letter-spacing: 2px;
   background-color: #000;
   color: #FFF;
+  padding-top: 10px;
   transition: all 0.5s ease;
 }
-.other-area p , .other-area2 p {
-  display: inline-block;
-}
+
 /*BLOG*/
 #blog {
  background-color: #FFF;
@@ -117,11 +116,13 @@ header ul li {
 .articulo div {
 	background-color: #999999;
 	color: #FFF;
-	margin-bottom: 50px;
+	
 	padding-top: 20px;
 	padding-bottom: 20px;
 }
 .articulo div h3 {
+  letter-spacing: 3px;
+  color: #000;
 	margin-top: 0px;
 }
 .articulo div p {
@@ -138,13 +139,14 @@ header ul li {
 	background-color: #FFF;
 }
 .boton-lm {
+  font-size: 18px;
 	display: inline-block;
-	width: 20%;
+	width: 30%;
 	text-align: center;
-	background-color: #FFF;
 	padding-top: 5px;
 	padding-bottom: 5px;
 }
+
 
 .blog-right {
 	background-color: #999999;
@@ -155,8 +157,11 @@ header ul li {
 	padding-bottom: 15px;
 	margin-bottom: 15px;
 	margin-top: 20px;
+  height: 200px;
 }
 .blog-right h3 {
+  letter-spacing: 3px;
+  color: #000;
 	margin-top: 0px;
 }
 .blog-right a {
@@ -178,6 +183,7 @@ header ul li {
 	background-color: #B2B4B6;
 }
 .tools {
+  height: 200px;
 	margin-bottom: 20px;
 	margin-top: 20px;
 	background-color: white;
@@ -186,12 +192,17 @@ header ul li {
 	text-align: center;
 }
 .tools p{
+  height: 160px;
 	text-align: justify;
 	border-left: 1px solid #484F57;
 	padding-left: 10px;
 }
 .tools span {
 	font-size: 35px;
+}
+/*teamwork*/
+.tw{
+  margin-top: 20px;
 }
 
 /*footer*/
