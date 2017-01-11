@@ -10,6 +10,10 @@ a:hover {
 	text-decoration: none;
 	color: black;
 }
+.no-padding {
+  padding-left: 0px;
+  padding-right: 0px;
+}
 .head-section {
 	width:100%;
 }
