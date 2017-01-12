@@ -20,8 +20,8 @@ a:hover {
 .title_sitio {
 	text-align: center;
 	background-color: #E72A31;
-	padding-top: 1%;
-	padding-bottom: 1%;
+	padding-top: 5px;
+	padding-bottom: 5px;
 	color: white;
 }
 /*HEADER*/
@@ -94,9 +94,7 @@ header ul li {
   height: 80px;
   transition: all 0.5s ease;
 }
-.other-area span , .other-area2 span {
-  margin-right: 5%;
-}
+
 .other-area:hover , .other-area2:hover {
   font-size: 15px;
   letter-spacing: 2px;
@@ -105,7 +103,14 @@ header ul li {
   padding-top: 10px;
   transition: all 0.5s ease;
 }
-
+.other-area i , .other-area2 i {
+  font-size: 16px;
+  transition: all 0.5s ease;
+}
+.other-area i:hover , .other-area2 i:hover {
+  font-size: 12px;
+  transition: all 0.5s ease;
+}
 /*BLOG*/
 #blog {
  background-color: #FFF;
