@@ -415,29 +415,25 @@ footer h6 {
   display: inline-block;
   text-decoration: none;
   padding: 7px 14px;
-  text-transform: uppercase;
   margin: -10px 0 0 0;
+  font-weight: bold;
   background-color: transparent;
   -webkit-transform: translateY(-200px);
   -ms-transform: translateY(-200px);
   transform: translateY(-200px);
   color: #000;
-  border: 1px solid #000;
   -webkit-transition: all ease-in-out 0.3s;
   transition: all ease-in-out 0.3s;
 }
 
 .hovereffect p.info:hover {
-  box-shadow: 0 0 5px #fff;
 }
 
 .hovereffect:hover p.info {
   -webkit-transform: translateY(0px);
   -ms-transform: translateY(0px);
   transform: translateY(0px);
-  box-shadow: 0 0 5px #000;
   color: #000;
-  border: 1px solid #000;
   -webkit-transition-delay: 0.3s;
   transition-delay: 0.3s;
 }
