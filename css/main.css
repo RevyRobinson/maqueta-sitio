@@ -20,9 +20,13 @@ a:hover {
 .title_sitio {
 	text-align: center;
 	background-color: #E72A31;
-	padding-top: 5px;
+	padding-top: 15px;
 	padding-bottom: 5px;
 	color: white;
+  height: 100px;
+}
+.mobile {
+  display: none;
 }
 /*HEADER*/
 header {

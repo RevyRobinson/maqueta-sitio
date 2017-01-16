@@ -1,0 +1,58 @@
+@media only screen and (max-width: 768px) {
+	.mobile {
+		display: inline-block;
+	}
+	.navbar{
+		display: none;
+	}
+	.logo {
+		display:none;
+	}
+	.title_sitio{
+		background-image: url('../image/title-section-mobile.png');
+		background-repeat: no-repeat;	
+	}
+	header {
+	position: fixed;
+    text-align: center;
+	z-index: 1;
+	width: 100%;
+	background-color: rgba(17,17,18,0.32);
+	height: 50px;
+	-webkit-box-shadow: 10px 10px 10px 10px rgba(17,17,18,0.32);
+	-moz-box-shadow: 10px 10px 10px 10px rgba(17,17,18,0.32);
+	box-shadow: 10px 10px 10px 10px rgba(17,17,18,0.32);
+	}
+	/*banner*/
+	#banner {
+		padding-top: 0px;
+	}
+	.banner-img {
+		display:none;
+	}
+	/*otras areas*/
+	.otras-areas {
+		display:none;
+	}
+	.otras-areas-mobile {
+		width: 100%;
+	}
+	.otras-areas-mobile p {
+		font-size: 16px;
+  		text-align: center;
+  		padding-top: 25px;
+  		padding-bottom: 20px;
+  		height: 50px;
+	}
+	.head-section {
+		display: none;
+	}
+	/*blog*/
+	.articulo hr {
+		display: none;
+	}
+	.blog-section {
+		border-radius: 50%;
+
+	}
+}
