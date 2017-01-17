@@ -30,7 +30,6 @@ a:hover {
 }
 /*HEADER*/
 header {
-	position: fixed;
   text-align: center;
 	z-index: 1;
 	width: 100%;
